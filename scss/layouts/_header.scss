@@ -1,0 +1,35 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 16px;
+    background: #39373740;
+    backdrop-filter: blur(5px);
+    z-index: 3;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        }
+
+    &__list {
+        display: flex;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+    }
+
+    &__logo {
+        font-family: 'e-Ukraine', sans-serif;
+        font-weight: 900;
+        font-size: 36px;
+        color: black;
+    }
+
+    &__social-icons {
+        display: flex;
+        gap: 30px;
+    }
+}

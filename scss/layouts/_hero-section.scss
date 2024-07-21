@@ -1,0 +1,21 @@
+.hero-section {
+    position: relative;
+    padding: 215px 0 215px;
+
+    &__title {
+        font-size: 64px;
+        text-transform: uppercase;
+    }
+
+    &__container {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+
+    &__marquee {
+        position: absolute;
+        bottom: 0;
+        color: white;
+    }
+}
