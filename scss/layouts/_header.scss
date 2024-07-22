@@ -14,6 +14,11 @@
         align-items: center;
         }
 
+    &__link {
+        &:hover {
+            color: gray !important;
+        }
+    }    
     &__list {
         display: flex;
         gap: 30px;
@@ -31,5 +36,11 @@
     &__social-icons {
         display: flex;
         gap: 30px;
+    }
+
+    &__icon-link {
+        &:hover {
+            fill: gray;
+        }
     }
 }
